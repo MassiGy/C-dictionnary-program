@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.sql": "sql",
+        "sys_headers.h": "c",
+        "tries.h": "c"
+    }
+}
