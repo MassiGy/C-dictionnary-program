@@ -5,6 +5,8 @@ and then expose some APIs for search and spelling checkers.
 */
 
 #include "../headers/tries.h"
+#include "../headers/stringManipulation.h"
+#include "../headers/singleLinkedLists.h"
 
 int main(void)
 {
@@ -296,3 +298,5 @@ void destroy_trie(node_t *root_list)
 
     root_list = NULL;
 }
+
+

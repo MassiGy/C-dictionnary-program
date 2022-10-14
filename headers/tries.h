@@ -1,7 +1,4 @@
-#include "./headers/sys_headers.h"
-
-#include "./headers/stringManipulation.h"
-#include "./headers/singleLinkedLists.h"
+#include "./sys_headers.h"
 
 #define FILE_LINE_COUNT 10000
 #define WORD_PER_LINE 1
