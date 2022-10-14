@@ -296,7 +296,6 @@ void destroy_trie(node_t *root_list)
         destroy_trie((root_list[i].store));
     }
 
-    root_list = NULL;
 }
 
 
