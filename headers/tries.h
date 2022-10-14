@@ -1,7 +1,7 @@
-#include "sys_headers.h"
+#include "./headers/sys_headers.h"
 
-#include "stringManipulation.h"
-#include "singleLinkedLists.h"
+#include "./headers/stringManipulation.h"
+#include "./headers/singleLinkedLists.h"
 
 #ifndef FILE_LINE_COUNT
 #define FILE_LINE_COUNT 10000
@@ -22,8 +22,6 @@ struct node
 };
 
 typedef struct node node_t;
-
-
 
 // TRIES FUNTIONS
 void initTrie(node_t *root_list);
