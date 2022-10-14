@@ -15,7 +15,7 @@ int main(void)
     initTrie(root_list);
 
     // read from the words.txt file
-    FILE *_file = fopen("./ressources/words.txt", "rt");
+    FILE *_file = fopen("../ressources/words.txt", "rt");
     assert(_file != NULL);
 
     char buffer[34];
