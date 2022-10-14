@@ -4,7 +4,7 @@
 and then expose some APIs for search and spelling checkers.
 */
 
-#include "tries.h"
+#include "./headers/tries.h"
 
 int main(void)
 {

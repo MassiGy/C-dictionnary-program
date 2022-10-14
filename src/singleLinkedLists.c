@@ -1,6 +1,5 @@
-#include "sys_headers.h"
-#include "singleLinkedLists.h"
-
+#include "./headers/sys_headers.h"
+#include "./headers/singleLinkedLists.h"
 
 // list_t functions
 

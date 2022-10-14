@@ -1,8 +1,6 @@
 
 
-#include "stringManipulation.h"
-
-
+#include "./headers/stringManipulation.h"
 
 /* CUSTOM STRING OPERATIONS */
 void copyStr(char *str, char *data)
