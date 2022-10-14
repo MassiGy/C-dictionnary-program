@@ -1,5 +1,5 @@
 
-
+#include "../headers/sys_headers.h"
 #include "../headers/stringManipulation.h"
 
 /* CUSTOM STRING OPERATIONS */

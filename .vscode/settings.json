@@ -2,6 +2,8 @@
     "files.associations": {
         "*.sql": "sql",
         "sys_headers.h": "c",
-        "tries.h": "c"
+        "tries.h": "c",
+        "stringmanipulation.h": "c",
+        "singlelinkedlists.h": "c"
     }
 }
