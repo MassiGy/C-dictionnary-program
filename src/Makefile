@@ -1,5 +1,5 @@
 # liste des fichiers source
-SRC = tries.c singleLinkedLists.c stringManipulation.c
+SRC = main.c tries.c singleLinkedLists.c stringManipulation.c
 #SRC = $(wildcard *.c)
 
 # liste des fichiers .o et des dependances (mis dans le repertoire build/)
@@ -10,7 +10,7 @@ DEP = $(addprefix build/,$(SRC:.c=.d))
 CC = gcc
 
 # nom de l'executable
-EXE = tries
+EXE = main
 
 # flags de compilation (CFLAGS) et d'edition de liens (LDFLAGS)
 CFLAGS += -Wall  -MMD -g -O2
