@@ -235,10 +235,10 @@ bool is_leaf(node_t *root_list)
 
 void destroy_trie(node_t *root_list)
 {
-    // for each node of the list, free the store
-    // do this up to buttom recursively until the trie is a leaf.
     if (root_list == NULL)
         return;
+    // for each node of the list, free the store
+    // do this up to buttom recursively until the trie is a leaf.
 
     if (is_leaf(root_list))
     {
@@ -251,4 +251,6 @@ void destroy_trie(node_t *root_list)
     {
         destroy_trie((root_list[i].store));
     }
+
+    free(root_list);
 }

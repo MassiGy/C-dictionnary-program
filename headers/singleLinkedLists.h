@@ -1,7 +1,7 @@
 
 struct list
 {
-    char str[32];
+    char *str;
     struct list *next;
 };
 

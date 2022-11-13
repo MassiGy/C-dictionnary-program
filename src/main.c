@@ -12,6 +12,7 @@ int main(void)
     node_t *root_list = createTrie();
     initTrie(root_list);
 
+
     // read from the words.txt file
     FILE *_file = fopen("../ressources/words.txt", "rt");
     assert(_file != NULL);

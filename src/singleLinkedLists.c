@@ -13,9 +13,11 @@ list_t *destroy(list_t *head)
     {
         temp = head;
         head = head->next;
+        free(temp->str);
         free(temp);
     }
-
+    free(head);
+    head = NULL;
     return head;
 }
 
@@ -25,7 +27,10 @@ list_t *createNode(char *data)
 
     assert(item != NULL);
 
+    item->str = malloc((strlen(data) + 1) * sizeof(char));
+
     strcpy(item->str, data);
+
     item->next = NULL;
     return item;
 }
